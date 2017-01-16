@@ -21,7 +21,7 @@
  * columnID: The id of the table id in the first row  at the desired
  *           column
  *
- * ie. $("#cand").ResponsiveTable({ "freezeColumn" : "pscid" });
+ * ie. $("#cand").ResponsiveTable({ "freezeColumn" : "col3" });
  *
  * Authors: Jordan Stirling <jstirling91@gmail.com>
  *          Dave MacFarlane
@@ -288,7 +288,7 @@
       if (options && options.freezeColumn) {
         column = $("#" + options.freezeColumn);
         columnNumber = $(column).parent().children().index($(column));
-        $(this).find("tr").each(function(key, value) {
+        $(this).parent().find("tr").each(function(key, value) {
           if (key === 0) {
             var child2 = $(value).children().get(columnNumber + 1);
             $(child2).addClass(id + 'Next');

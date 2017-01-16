@@ -50,3 +50,9 @@
   color: white;
   font-weight: bold;
 }
+.left.carousel-control {
+    margin-left: 15px;
+}
+
+.right.carousel-control {
+    margin-right: 15px;
