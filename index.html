@@ -4,7 +4,7 @@
 		<script type="text/javascript" src="js/jquery.responsiveTable.js"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
-		    $("#cand").ResponsiveTable({ "freezeColumn" : "col3" });
+		    $("#cand").ResponsiveTable({ "freezeColumn" : "col2" });
 		})</script>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,15 +16,24 @@
 		</style>
 	</head>
 	<body>
-		<div class="row" style="height: 50px">d</div>
-		<div class="col-xs-12">
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">
+		        B
+		      </a>
+		    </div>
+		  </div>
+		</nav>
+
+		<div class="col-xs-12" style="margin-top: 60px">
 		    <table id="cand" class="table table-hover table-primary table-bordered colm-freeze" width="100%">
 		        <thead>
 		            <tr class="info">
 		                <th>No.</th>
 		                <th>Col 1</th>
-		                <th>Col 2</th>
-		                <th id="col3">Col 3</th>
+		                <th id="col2">Col 2</th>
+		                <th>Col 3</th>
 		                <th>Col 4</th>
 		                <th>Col 5</th>
 		                <th>Col 6</th>
@@ -39,8 +48,8 @@
 		            <tr>
 		                <td>Row 1</td>
 		                <td>Row 1, Col 1</td>
-		                <td>Row 1, Col 2</td>
-		                <td><a href="#">Row 1, Col 3</a></td>
+		                <td><a href="#">Row 1, Col 2</a></td>
+		                <td>Row 1, Col 3</td>
 		                <td>Row 1, Col 4</td>
 		                <td>Row 1, Col 5</td>
 		                <td>Row 1, Col 6</td>
@@ -53,8 +62,8 @@
 		            <tr>
 		                <td>Row 2</td>
 		                <td>Row 2, Col 1</td>
-		                <td>Row 2, Col 2</td>
-		                <td><a href="#">Row 2, Col 3</a></td>
+		                <td><a href="#">Row 2, Col 2</a></td>
+		                <td>Row 2, Col 3</td>
 		                <td>Row 2, Col 4</td>
 		                <td>Row 2, Col 5</td>
 		                <td>Row 2, Col 6</td>
@@ -67,8 +76,8 @@
 		            <tr>
 		                <td>Row 3</td>
 		                <td>Row 3, Col 1</td>
-		                <td>Row 3, Col 2</td>
-		                <td><a href="#">Row 3, Col 3</a></td>
+		                <td><a href="#">Row 3, Col 2</a></td>
+		                <td>Row 3, Col 3</td>
 		                <td>Row 3, Col 4</td>
 		                <td>Row 3, Col 5</td>
 		                <td>Row 3, Col 6</td>
@@ -81,8 +90,8 @@
 		            <tr>
 		                <td>Row 4</td>
 		                <td>Row 4, Col 1</td>
-		                <td>Row 4, Col 2</td>
-		                <td><a href="#">Row 4, Col 3</a></td>
+		                <td><a href="#">Row 4, Col 2</a></td>
+		                <td>Row 4, Col 3</td>
 		                <td>Row 4, Col 4</td>
 		                <td>Row 4, Col 5</td>
 		                <td>Row 4, Col 6</td>
@@ -95,8 +104,8 @@
 		            <tr>
 		                <td>Row 5</td>
 		                <td>Row 5, Col 1</td>
-		                <td>Row 5, Col 2</td>
-		                <td><a href="#">Row 5, Col 3</a></td>
+		                <td><a href="#">Row 5, Col 2</a></td>
+		                <td>Row 5, Col 3</td>
 		                <td>Row 5, Col 4</td>
 		                <td>Row 5, Col 5</td>
 		                <td>Row 5, Col 6</td>
@@ -109,8 +118,8 @@
 		            <tr>
 		                <td>Row 6</td>
 		                <td>Row 6, Col 1</td>
-		                <td>Row 6, Col 2</td>
-		                <td><a href="#">Row 6, Col 3</a></td>
+		                <td><a href="#">Row 6, Col 2</a></td>
+		                <td>Row 6, Col 3</td>
 		                <td>Row 6, Col 4</td>
 		                <td>Row 6, Col 5</td>
 		                <td>Row 6, Col 6</td>
@@ -123,8 +132,8 @@
 		            <tr>
 		                <td>Row 7</td>
 		                <td>Row 7, Col 1</td>
-		                <td>Row 7, Col 2</td>
-		                <td><a href="#">Row 7, Col 3</a></td>
+		                <td><a href="#">Row 7, Col 2</a></td>
+		                <td>Row 7, Col 3</td>
 		                <td>Row 7, Col 4</td>
 		                <td>Row 7, Col 5</td>
 		                <td>Row 7, Col 6</td>
@@ -137,8 +146,8 @@
 		            <tr>
 		                <td>Row 8</td>
 		                <td>Row 8, Col 1</td>
-		                <td>Row 8, Col 2</td>
-		                <td><a href="#">Row 8, Col 3</a></td>
+		                <td><a href="#">Row 8, Col 2</a></td>
+		                <td>Row 8, Col 3</td>
 		                <td>Row 8, Col 4</td>
 		                <td>Row 8, Col 5</td>
 		                <td>Row 8, Col 6</td>
@@ -151,8 +160,8 @@
 		            <tr>
 		                <td>Row 9</td>
 		                <td>Row 9, Col 1</td>
-		                <td>Row 9, Col 2</td>
-		                <td><a href="#">Row 9, Col 3</a></td>
+		                <td><a href="#">Row 9, Col 2</a></td>
+		                <td>Row 9, Col 3</td>
 		                <td>Row 9, Col 4</td>
 		                <td>Row 9, Col 5</td>
 		                <td>Row 9, Col 6</td>
@@ -165,5 +174,6 @@
 		        </tbody>
 		    </table>
 		</div>
+		<div style="height: 2000px">SCROLL UP</div>
 	</body>
 </html>

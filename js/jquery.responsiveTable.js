@@ -6,6 +6,12 @@
  * or not. The table can be setup to freeze a column once the
  * column comes to the left of the screen. The column will
  * unfreeze once the column to its right is fully visiable.
+ * When scrolling vertically, the header will freeze at the 
+ * top of the page until the table is no longer visable on
+ * on the screen (NOTE: the current version works only with
+ * a fixed nav bar of 50px on the top). As the mouse moves 
+ * towards the outter edge of the scroll bars, the speed of
+ * horizontal scroll increases. 
  *
  * To setup the table without freezing a column simply call
  * the function DynamicTable on the table you want to apply

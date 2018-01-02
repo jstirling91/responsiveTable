@@ -56,3 +56,8 @@
 
 .right.carousel-control {
     margin-right: 15px;
+}
+
+.carousel-control{
+  width: 50px;
+}
